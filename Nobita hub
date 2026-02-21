@@ -1,5 +1,5 @@
 -- this script created at https://hoannhatz.github.io/ezscript
-getgenv().ScriptTitle = " Hub"
+getgenv().ScriptTitle = " Nobita Hub"
 getgenv().ScriptSubTitle = "[ Freemium ]"
 getgenv().ScriptImage = "https://i.ibb.co/YBYc4Spd/avt-nobita-hub-removebg.png"
 getgenv().ScriptAuthorName = "By Nobita"

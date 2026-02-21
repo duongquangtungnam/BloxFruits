@@ -1,0 +1,7 @@
+-- this script created at https://hoannhatz.github.io/ezscript
+getgenv().ScriptTitle = " Hub"
+getgenv().ScriptSubTitle = "[ Freemium ]"
+getgenv().ScriptImage = "https://i.ibb.co/YBYc4Spd/avt-nobita-hub-removebg.png"
+getgenv().ScriptAuthorName = "By Nobita"
+getgenv().ScriptAuthorSubTitle = "@real_nobinobita"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()

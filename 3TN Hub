@@ -1,33 +1,33 @@
+--- set config theo ý của bạn!
 Config = {
-Team = "Pirates",
-Configuration = {
-HopWhenIdle = true,
-AutoHop = true,
-AutoHopDelay = 60 * 60,
-FpsBoost = false,
-BlackScreen = true
-},
-Items = {
+    Team = "Pirates",
+    FPS = 40,
+    Configuration = {
+        HopWhenIdle = true,
+        AutoHop = true,
+        AutoHopDelay = 60 * 60,
+        FpsBoost = true,
+        blackscreen = false
+    },
+    Items = {
 
--- Melees
-AutoFullyMelees = true,
+        -- Melees 
+        AutoFullyMelees = true,
 
--- Swords
-Saber = true,
-CursedDualKatana = false,
+        -- Swords 
+        Saber = true,
+        CursedDualKatana = false,
 
--- Guns
-SoulGuitar = false,
+        -- Guns 
+        SoulGuitar = false,
 
--- Upgrades
+        -- Upgrades 
 
-RaceV2 = true
+        RaceV2 = true
 
-},
-Settings = {
-StayInSea2UntilHaveDarkFragments = false
+    },
+    Settings = {
+        StayInSea2UntilHaveDarkFragments = false
+    }
 }
-}
-
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hhl29042008-ops/script/refs/heads/main/cac"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sucvatthieunang/djtme/refs/heads/main/module"))()

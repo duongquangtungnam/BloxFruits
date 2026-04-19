@@ -1,7 +1,7 @@
---- set config theo ý của bạn!
+-- set config theo y cua ban!
 Config = {
     Team = "Pirates",
-    FPS = 40,
+    FPS = 15,
     Configuration = {
         HopWhenIdle = true,
         AutoHop = true,

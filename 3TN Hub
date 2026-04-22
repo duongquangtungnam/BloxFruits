@@ -1,4 +1,3 @@
--- set config theo y cua ban!
 Config = {
     Team = "Pirates",
     FPS = 15,
@@ -9,8 +8,12 @@ Config = {
         FpsBoost = true,
         blackscreen = false
     },
+    Fruit ={
+        Sniper = true,
+        Fruit = {"Kitsune-Kitsune"},
+        EatFruitStore = false
+    },
     Items = {
-
         -- Melees 
         AutoFullyMelees = true,
 
@@ -19,7 +22,7 @@ Config = {
         CursedDualKatana = false,
 
         -- Guns 
-        SoulGuitar = false,
+        SoulGuitar = true,
 
         -- Upgrades 
 

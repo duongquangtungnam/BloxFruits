@@ -1,17 +1,17 @@
 Config = {
     Team = "Pirates",
-    FPS = 15,
+    FPS = 45,
     Configuration = {
-        HopWhenIdle = true,
-        AutoHop = true,
-        AutoHopDelay = 60 * 60,
+        HopWhenIdle = false,
+        HopNear = true,
         FpsBoost = true,
-        blackscreen = false
+        blackscreen = false,
+        FastAttackMode = "Remote"
     },
     Fruit ={
         Sniper = true,
         Fruit = {"Kitsune-Kitsune"},
-        EatFruitStore = false
+        EatFruitStore = true
     },
     Items = {
         -- Melees 
@@ -19,18 +19,18 @@ Config = {
 
         -- Swords 
         Saber = true,
-        CursedDualKatana = false,
+        CursedDualKatana = true,
 
         -- Guns 
         SoulGuitar = true,
 
         -- Upgrades 
 
-        RaceV2 = true
+        RaceV2 = false
 
     },
     Settings = {
-        StayInSea2UntilHaveDarkFragments = false
+        StayInSea2UntilHaveDarkFragments = true
     }
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sucvatthieunang/djtme/refs/heads/main/module"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/02739b9a254f3f27af241ba0a11cac88.lua"))()

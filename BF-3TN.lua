@@ -1,6 +1,6 @@
 Config = {
     Team = "Pirates",
-    FPS = 45,
+    FPS = 60,
     Configuration = {
         HopWhenIdle = false,
         HopNear = true,
@@ -11,7 +11,7 @@ Config = {
     Fruit ={
         Sniper = true,
         Fruit = {"Kitsune-Kitsune"},
-        EatFruitStore = true
+        EatFruitStore = false
     },
     Items = {
         -- Melees 
@@ -33,4 +33,4 @@ Config = {
         StayInSea2UntilHaveDarkFragments = true
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/02739b9a254f3f27af241ba0a11cac88.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sucvatthieunang/cac/refs/heads/main/d"))()

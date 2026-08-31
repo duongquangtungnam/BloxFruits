@@ -1,17 +1,17 @@
 Config = {
-    Team = "Pirates",
-    FPS = 45,
+    Team = "Marines",
+    FPS = 60,
     Configuration = {
-        HopWhenIdle = false,
+        HopWhenIdle = true,
         HopNear = true,
         FpsBoost = true,
         blackscreen = false,
-        FastAttackMode = "Remote"
+        FastAttackMode = "Both"
     },
     Fruit ={
         Sniper = true,
         Fruit = {"Kitsune-Kitsune"},
-        EatFruitStore = true
+        EatFruitStore = false
     },
     Items = {
         -- Melees 
@@ -26,11 +26,12 @@ Config = {
 
         -- Upgrades 
 
-        RaceV2 = true
+        RaceV2 = false
 
     },
     Settings = {
         StayInSea2UntilHaveDarkFragments = true
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fab80827e51e9bb72712b73262a9a60f.lua"))()
+
+loadstring(game:HttpGet("https://pastefy.app/XhC4BwgX/raw"))() 
